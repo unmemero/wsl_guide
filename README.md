@@ -31,7 +31,7 @@ Once you're done, you should see something like this:
 
 [Back to Index](#Index)
 ## Access to WSL
-Once you have [[WSL Guide#Installation|installed]] WSL, you can access it in various ways:
+Once you have [installed](#installation) WSL, you can access it in various ways:
 - By opening up ubuntu or WSL on windows
 <img src="./images/ubuntu_exec.png">
 <img src="./images/wsl_exec.png">
