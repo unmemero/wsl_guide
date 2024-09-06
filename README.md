@@ -92,7 +92,8 @@ Then select connect to WSL
 After this just open your folders, files, and projects, and start working
 <img src="./docs/images/wsl_vscode.png">
 
-[[WSL Guide#Index|Back to Index]]
+[Back to Index](#index)
+
 ## Some extra shortcuts
 You can add some recommended quick shortcuts to your terminal, like folders, or long commands. To do so, and other terminal customizations, we edit the `.bashrc` file.
 1. To do so, open your `.bashrc` file in your home (`~`) directory on your text editor of choice. Then add the following lines, but replacing `<yourUsername>` with your actual Windows or Linux username.

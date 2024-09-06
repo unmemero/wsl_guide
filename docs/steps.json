@@ -21,17 +21,36 @@
     },{
         "title":"First Steps in WSL",
         "content":[
-            
+            "<h3>Update and Upgrade</h3>",
+            "The first step you want to do is install all your development tools you'll use. To do so, you must first update your system.",
+            "<span style=\"color:red;\">VERY IMPORTANT:</span> To copy in Linux terminal is `Ctrl + Shift + c`, and paste is `Ctrl + Shift + v`.",
+            "<span style=\"color:red;\">VERY IMPORTANT:</span>Another thing, if your password is invisible don't worry, just hit enter after you typed it, even if you don't see it.",
+            "To update your WSL, in the command line paste this command:<br><div class=\"codeblock\"><pre><code class=\"language-bash\">sudo apt update && sudo apt upgrade -y && sudo apt autoclean -y && sudo apt autoremove</code></pre><button class=\"copy-button\"><span class=\"material-symbols-outlined\">content_copy</span></button></div>",
+            "Hit enter and type your password. Once it's done, It will show the regular bash prompt (<span style=\"color:lightgreen;\">yourUsername@yourComputerName:</span> <span style=\"color:blue;\">~ $</span>).",
+            "<h3>Useful tools</h3>",
+            "To install your development tools we'll use the `apt install <programs>` command. Here's an example with some useful programs you may want to include:",
+            "<div class=\"codeblock\"><pre><code class=\"language-bash\">sudo apt install git vim emacs bat build-essential python3 openjdk-17-jdk 7zip tmux curl net-tools wireshark jq tree neofetch zsh dos2unix</code></pre><button class=\"copy-button\"><span class=\"material-symbols-outlined\">content_copy</span></button>",
+            "Just a quick overview of each of these tools:",
+            "<ul><li>`git`: source control software.</li><li>`vim` and `emacs`: text editors.</li><li>`bat`: file concatenator, but with syntax highlighting (`cat` on steroids).</li><li>`build-essential`: Installs `C` and `C++` compilers and debuggers.</li><li>`python3`: Installs python3 into your WSL terminal</li><li>openjdk-17-jdk`: Installs java 17 into your WSL terminal (To install other versions, type apart `javac --version`, and just replace the `17` for the version number you need).</li><li>`7zip`: a file compression tool.</li><li>`tmux`: Terminal splitter.</li><li>`curl`: Terminal web request tool (Probably you'll mostly use it to install tools not available with the `apt` package manager).</li><li>`net-tools`: Network analysis tools (To start learning hacking, but the ethical kind).</li><li>`wireshark`: Web traffic analysis tool. Install at your own risk</li><li>`jq`: A `json` processor in your terminal.</li><li>`tree`: Lets you see the file structure of a directory</li><li>`neofetch`: Run it. No terminal is complete without `neofetch`.</li><li>`zsh`: The mac terminal (But I don't recommend it unless necessary).</li><li>`dos2unix`: Convert all files with windows special characters so they can be handled by Linux/UNIX.</li></ul><br>",
+            "<a href=\"https://packages.ubuntu.com/\">See more packages here</a>"
         ]
     },{
         "title":"VS Code Setup",
         "content":[
-
+            "To setup VS Code with WSL, install the WSL extension from Microsoft.",
+            "From there, click on the blue icon in the bottom left corner: <br><img src=\"./images/ubuntu_button.png\">",
+            "Then select connect to WSL<br><img src=\"./images/wsl_connect.png\">",
+            "After this just open your folders, files, and projects, and start working<br><img src=\"./images/wsl_vscode.png\">"
         ]
     },{
         "title":"Some extra shortcuts",
         "content":[
-
+            "You can add some recommended quick shortcuts to your terminal, like folders, or long commands. To do so, and other terminal customizations, we edit the `.bashrc` file.",
+            "To do so, open your `.bashrc` file in your home (`~`) directory on your text editor of choice. Then add the following lines, but replacing `<yourUsername>` with your actual Windows or Linux username.",
+            "<div class=\"codeblock\"><pre><code class=\"language-powershell\">alias fullupdate='sudo apt update && sudo apt upgrade -y && sudo apt autoclean -y && sudo apt autoremove'\n export pc=\"/mnt/c/Users/<yourUsername>/\"</code></pre><button class=\"copy-button\"><span class=\"material-symbols-outlined\">content_copy</span></button></div>",
+            "After saving the file, type in your terminal `source ~/.bashrc` for the changes to take effect.",
+            "What `alias` does is create a shortcut for a long command. Make it for those you use recurrently. On the other hand, `export` stores a variable which can be accessed via `$variableName`. It is mostly use to shorten paths to files.",
+            "With the `pc` variable from above, you can type in your terminal `cd $pc`, and it will move to the directory `/mnt/c/Users/<yourUsername>/`, which is your user folder in your Windows system (AKA, where you have folders like Documents, Downloads, Pictures, etc.)"
         ]
     }
 ]
