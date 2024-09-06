@@ -1,15 +1,14 @@
 # WSL Guide
 For a quick tutorial click [here](https://youtu.be/lG4xrh_Xuf4).
-
 ## Index
 
- -  [[WSL Guide#Installation|Installation]]
- -  [[WSL Guide#Access to WSL|Access to WSL]]
- *  [[WSL Guide#First Steps in WSL|First Steps in WSL]]
-	 * [[WSL Guide#Update|Update]]
-	 * [[WSL Guide#Usefull tools|Useful tools]]
-- [[WSL Guide#VSCode Setup|VS Code Setup]]
-- [[WSL Guide#Some extra shortcuts|Some extra shortcuts]]
+ - [Installation](#Installation)
+ -  [Access to WSL](#Access to WSL)
+ *  [First steps in WSL](#First steps in WSL)
+	 * [Update](#Update)
+	 * [Useful tools](#Useful tools)
+- [VSCode Setup](#VS Code Setup)
+- [Some extra shortcuts](#Some extra shortcuts)
 ## Installation
 
 To install WSL on windows, in PowerShell type the following to get the available Linux distros for WSL.
@@ -30,7 +29,7 @@ Once installed, it will let you know that you must type your username and passwo
 Once you're done, you should see something like this:
 <img src="./images/Pasted image 20240905224408.png">
 
-[[WSL Guide#Index|Back to Index]]
+[Back to Index](#Index)
 ## Access to WSL
 Once you have [[WSL Guide#Installation|installed]] WSL, you can access it in various ways:
 - By opening up ubuntu or WSL on windows
@@ -39,7 +38,7 @@ Once you have [[WSL Guide#Installation|installed]] WSL, you can access it in var
 - By typing `wsl` or `ubuntu` in PowerShell
 <img src="./images/ubuntu_pwsh_prompt.png">
 
-[[WSL Guide#Index|Back to Index]]
+[Back to Index](#Index)
 
 ## First Steps in WSL
 ### Update
@@ -76,7 +75,7 @@ Just a quick overview of each of these tools:
 Some additional packages:
 [Ubuntu – List of sections in "focal"](https://packages.ubuntu.com/focal/)
 
-[[WSL Guide#Index|Back to Index]]
+[Back to Index](#Index)
 
 ## VS Code Setup
 To setup VS Code with WSL, install the WSL extension from Microsoft.
@@ -99,4 +98,4 @@ export pc="/mnt/c/Users/<yourUsername>/"
 
 * What `alias` does is create a shortcut for a long command. Make it for those you use recurrently. On the other hand, `export` stores a variable which can be accessed via `$variableName`. It is mostly use to shorten paths to files. 
 * With the `pc` variable from above, you can type in your terminal `cd $pc`, and it will move to the directory `/mnt/c/Users/<yourUsername>/`, which is your user folder in your Windows system (AKA, where you have folders like Documents, Downloads, Pictures, etc.)
-[[WSL Guide#Index|Back to Index]]
+[Back to Index](#Index)
