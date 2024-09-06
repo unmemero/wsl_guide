@@ -3,7 +3,7 @@
         "title":"Installation",
         "content":[
             "Open PowerShell",
-            "Run ```PowerShell wsl --list --online``` to see list of distros",
+            "Run <br><pre><code class=\"language-powershell\">wsl --list --online</code></pre> to see list of distros",
             "Run ```PowerShell wsl --install -d Ubuntu``` to install Ubuntu",
             "If the installation is not successfull, please contact me to rgarcia117@miners.utep.edu",
             "Once installed, create a username (It can be your windows username)",
