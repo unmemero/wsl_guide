@@ -1,5 +1,10 @@
 # WSL Guide
-For a quick tutorial click [here](https://youtu.be/lG4xrh_Xuf4).
+## References
+### Documentation
+For the official documentation go [here](https://learn.microsoft.com/en-us/windows/wsl/about).
+### Tutorial
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lG4xrh_Xuf4?si=kXRFqiuOwKMiP1Eu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Index
 
  - [Installation](#Installation)
