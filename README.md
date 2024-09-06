@@ -3,12 +3,12 @@ For a quick tutorial click [here](https://youtu.be/lG4xrh_Xuf4).
 ## Index
 
  - [Installation](#Installation)
- -  [Access to WSL](#Access to WSL)
- *  [First steps in WSL](#First steps in WSL)
-	 * [Update](#Update)
-	 * [Useful tools](#Useful tools)
-- [VSCode Setup](#VS Code Setup)
-- [Some extra shortcuts](#Some extra shortcuts)
+ -  [Access to WSL](#access-to-wsl)
+ *  [First steps in WSL](#first-steps-in-wsl)
+	 * [Update](#update)
+	 * [Useful tools](#useful-tools)
+- [VSCode Setup](#vs-code-setup)
+- [Some extra shortcuts](#some-extra-shortcuts)
 ## Installation
 
 To install WSL on windows, in PowerShell type the following to get the available Linux distros for WSL.
@@ -80,9 +80,9 @@ Some additional packages:
 ## VS Code Setup
 To setup VS Code with WSL, install the WSL extension from Microsoft.
 From there, click on the blue icon in the bottom left corner.
-<img src="./images/wsl_vscode_button.png">
+<img src="./images/ubuntu_button.png">
 Then select connect to WSL
-<img src="./images/wsl_vscode_connect.png">
+<img src="./images/wsl_connect.png">
 After this just open your folders, files, and projects, and start working
 <img src="./images/wsl_vscode.png">
 
