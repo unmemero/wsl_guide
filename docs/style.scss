@@ -30,15 +30,18 @@ iframe{
     & button{
         margin: 10px;
         padding: 10px;
-        width: 40px;
-        height: 40px;
+        width: 70px;
+        height: 400px;
         border: solid 1px darkblue;
         border-radius: 10px;
         color:darkblue;
         background: black;
         transition: ease-in 0.2s;
+        font-size: 2em;
+        font-weight: bold;
         &:hover{
             background: darkblue;
+            border: solid 3px black;
             color: white;
         }
         &:active{
@@ -60,6 +63,41 @@ iframe{
         padding-right: 30px;
         & ul li{
             text-align: left;
+            & .codeblock{
+                display: flex;
+                align-items: center;
+                & code{
+                    width: 50vw;
+                    padding: 20px;
+                    border-radius: 10px;
+                }
+                & .copy-button{
+                    position: absolute;
+                    left: 71vw;
+                    background: #272822;
+                    color: white; 
+                    border: solid white 1px;
+                    border-radius: 3px;
+                    width: 25px;
+                    height: 25px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 5px;
+                    transition: ease-in 0.2s;
+                    & span{
+                        font-size: 0.7em;
+                    }
+                    &:hover{
+                        background: white;
+                        color: black;
+                    }
+                    &:active{
+                        background: red;
+                        color: white;
+                    }
+                }
+            }
         }
         & img{
             max-width: 50vw;
@@ -68,3 +106,10 @@ iframe{
     margin-bottom: 100px;
 }
 
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
