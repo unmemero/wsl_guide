@@ -32,16 +32,16 @@ Once installed, it will let you know that you must type your username and passwo
 * Your username can be your windows username.
 * <span style="color:red;">IMPORTANT:</span> When typing your password, it will be invisible. Just keep typing and be very careful you typed it correctly to avoid the headache of gaining access. This will also happen when you use command that require admin privileges with `sudo`.
 Once you're done, you should see something like this:
-<img src="./images/prompt.png">
+<img src="./docs/images/prompt.png">
 
 [Back to Index](#Index)
 ## Access to WSL
 Once you have [installed](#installation) WSL, you can access it in various ways:
 - By opening up ubuntu or WSL on windows
-<img src="./images/ubuntu_exec.png">
-<img src="./images/wsl_exec.png">
+<img src="./docs/images/ubuntu_exec.png">
+<img src="./docs/images/wsl_exec.png">
 - By typing `wsl` or `ubuntu` in PowerShell
-<img src="./images/ubuntu_pwsh_prompt.png">
+<img src="./docs/images/ubuntu_pwsh_prompt.png">
 
 [Back to Index](#Index)
 
@@ -86,11 +86,11 @@ Some additional packages:
 ## VS Code Setup
 To setup VS Code with WSL, install the WSL extension from Microsoft.
 From there, click on the blue icon in the bottom left corner.
-<img src="./images/ubuntu_button.png">
+<img src="./docs/images/ubuntu_button.png">
 Then select connect to WSL
-<img src="./images/wsl_connect.png">
+<img src="./docs/images/wsl_connect.png">
 After this just open your folders, files, and projects, and start working
-<img src="./images/wsl_vscode.png">
+<img src="./docs/images/wsl_vscode.png">
 
 [[WSL Guide#Index|Back to Index]]
 ## Some extra shortcuts
