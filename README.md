@@ -54,7 +54,7 @@ Hit enter and type your password. Once it's done, It will show the regular bash 
 ### Useful tools
 To install your development tools we'll use the `apt install <programs>` command. Here's an example with some useful programs you may want to include
 ```bash
-sudo apt install git vim emacs bat build-essential python3 openjdk-17-jdk 7zip tmux curl net-tools wireshark jq tree neofetch zsh
+sudo apt install git vim emacs bat build-essential python3 openjdk-17-jdk 7zip tmux curl net-tools wireshark jq tree neofetch zsh dos2unix
 ```
 Just a quick overview of each of these tools:
 - `git`: source control software.
@@ -72,6 +72,7 @@ Just a quick overview of each of these tools:
 - `tree`: Lets you see the file structure of a directory
 - `neofetch`: Run it. No terminal is complete without `neofetch`.
 - `zsh`: The mac terminal (But I don't recommend it unless necessary).
+- `dos2unix`: Convert all files with windows special characters so they can be handled by Linux/UNIX.
 Some additional packages:
 [Ubuntu – List of sections in "focal"](https://packages.ubuntu.com/focal/)
 
