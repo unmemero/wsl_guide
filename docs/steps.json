@@ -3,20 +3,20 @@
         "title":"Installation",
         "content":[
             "Open PowerShell",
-            "Run <br><pre><code class=\"language-powershell\">wsl --list --online</code></pre> to see list of distros",
-            "Run ```PowerShell wsl --install -d Ubuntu``` to install Ubuntu",
+            "<br>Run <br><pre><code class=\"language-powershell\">wsl --list --online</code></pre> to see list of distros<br><br>",
+            "<br>Run <br><pre><code class=\"language-powershell\">wsl --install -d Ubuntu</code></pre>to install Ubuntu<br><br>",
             "If the installation is not successfull, please contact me to rgarcia117@miners.utep.edu",
             "Once installed, create a username (It can be your windows username)",
             "<span style=\"color:red;\">IMPORTANT:</span>Create a password. If your password is invisible, don't worry, it is still being typed, just press enter at the end",
             "Confirm your password",
-            "Once done, it should look like this: <br><br><img src=\"../images/prompt.png\">"
+            "Once done, it should look like this: <br><br><img src=\"./images/prompt.png\">"
         ]
     },{
         "title":"Accessing WSL",
         "content":[
-            "Open the start menu and type `ubuntu` or `wsl`<br> <img src=\"../images/ubuntu_exec.png\"> <br> <img src=\"../images/wsl_exec.png\">",
+            "Open the start menu and type `ubuntu` or `wsl`<br> <img src=\"./images/ubuntu_exec.png\"> <br> <img src=\"./images/wsl_exec.png\">",
             "Once opened, you should see a terminal window",
-            "Another way is to open PowerShell and type `wsl` or `ubuntu`.<br> <img src=\"../images/ubuntu_pwsh_prompt.png\">"
+            "Another way is to open PowerShell and type `wsl` or `ubuntu`.<br> <img src=\"./images/ubuntu_pwsh_prompt.png\">"
         ]
     },{
         "title":"First Steps in WSL",
