@@ -27,7 +27,7 @@ Once installed, it will let you know that you must type your username and passwo
 * Your username can be your windows username.
 * <span style="color:red;">IMPORTANT:</span> When typing your password, it will be invisible. Just keep typing and be very careful you typed it correctly to avoid the headache of gaining access. This will also happen when you use command that require admin privileges with `sudo`.
 Once you're done, you should see something like this:
-<img src="./images/Pasted image 20240905224408.png">
+<img src="./images/prompt.png">
 
 [Back to Index](#Index)
 ## Access to WSL
